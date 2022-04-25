@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-anim-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-awt-util-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-bridge-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-codec-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-constants-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-css-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-ext-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-gvt-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-i18n-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-parser-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-script-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-shared-resources-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-svg-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-svggen-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-svgrasterizer-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-transcoder-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-util-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/batik-xml-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/bcpkix-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/bcprov-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/bcutil-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/fontbox-2.0.25.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/graphics2d-0.34.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/pdfbox-2.0.25.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-examples-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-excelant-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-javadoc-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-ooxml-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-ooxml-full-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-ooxml-lite-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/poi-scratchpad-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/xmlgraphics-commons-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/SeleniumWebdriver/ApachePOI/xmlsec-2.3.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
