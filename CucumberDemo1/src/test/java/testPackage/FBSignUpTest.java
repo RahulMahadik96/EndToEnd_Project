@@ -48,7 +48,7 @@ public class FBSignUpTest {
 		driver.get("https://www.facebook.com/");
 		boolean isDisplayed=driver.findElement(By.xpath("//img[@alt='Facebook']")).isDisplayed();
 		Assert.assertEquals(isDisplayed, true, "StapFailled: We are not on FB Login Or Singup Page");
-		System.out.println("StapPass: FB Login or Sign Up page Successfully Open");
+		System.out.println("StapPass: FB Login page Successfully Open");
 	}
 	
 	@Test  
