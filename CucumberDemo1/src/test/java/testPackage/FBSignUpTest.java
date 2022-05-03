@@ -64,7 +64,7 @@ public class FBSignUpTest {
 	public void sendInput() {
 		driver.findElement(By.name("firstname")).sendKeys(fname);
 		driver.findElement(By.name("lastname")).sendKeys(sname);
-		driver.findElement(By.name("reg_email__")).sendKeys("9876543210");
+		driver.findElement(By.name("reg_email__")).sendKeys("7758972804");
 		driver.findElement(By.name("reg_passwd__")).sendKeys(pasword);
 	}
 	
