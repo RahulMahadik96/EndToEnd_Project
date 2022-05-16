@@ -32,6 +32,7 @@ public class FBSignUpTest {
 		sname=data.getPasswordList().get(1);
 		pasword=data.getPasswordList().get(2);
 		
+		
 	}
 		
 	@BeforeTest
