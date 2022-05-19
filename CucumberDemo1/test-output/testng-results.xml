@@ -1,21 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-17T18:51:14 IST" name="Default suite" finished-at="2022-04-17T18:51:25 IST" duration-ms="10740">
+  <suite started-at="2022-05-19T09:26:47 IST" name="Default suite" finished-at="2022-05-19T09:26:48 IST" duration-ms="1186">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-04-17T18:51:14 IST" name="Default test" finished-at="2022-04-17T18:51:25 IST" duration-ms="10740">
-      <class name="RetestingSendKey">
-        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:RetestingSendKey@145f66e3]" started-at="2022-04-17T18:51:14 IST" name="launchBrowserAndUrl" finished-at="2022-04-17T18:51:24 IST" duration-ms="10320" status="PASS">
+    <test started-at="2022-05-19T09:26:47 IST" name="Default test" finished-at="2022-05-19T09:26:48 IST" duration-ms="1186">
+      <class name="cucumberOptions.OpenCartSearchRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:47 IST" name="setUpClass" finished-at="2022-05-19T09:26:48 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@17a1e4ca]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowserAndUrl -->
-        <test-method signature="launchURL()[pri:0, instance:RetestingSendKey@145f66e3]" started-at="2022-04-17T18:51:24 IST" name="launchURL" finished-at="2022-04-17T18:51:25 IST" duration-ms="354" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="208" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality with existing product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "false"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchURL -->
-      </class> <!-- RetestingSendKey -->
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="28" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality with non existing product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "false"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="24" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality without passing any product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "false"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="15" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality with existing product after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "true"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:28)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="24" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality with existing multiple product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "false"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:37)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T09:26:48 IST" duration-ms="24" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the working of Search functionality with non existing product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search product functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()" because "this.fPage" is null
+at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+at ✽.User on the Home page with login "false"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:45)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T09:26:48 IST" name="tearDownClass" finished-at="2022-05-19T09:26:48 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.OpenCartSearchRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.fasterxml.jackson.databind.deser.Deserializers.Base;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,7 +17,7 @@ import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-public class StepDefinition {
+public class StepDefinitionHRMlogin {
 	   
 	WebDriver driver;
 	
@@ -24,7 +26,7 @@ public class StepDefinition {
 		  
 		    String basPath=System.getProperty("user.dir");
 		    String path=basPath+"\\chromedriver.exe";
-	        System.setProperty("webdriver.chrome.driver",path);
+	        System.setProperty("webdriver.chrome.driver","C:\\Program Files\\SeleniumWebdriver\\chromedriver.exe");
 	        driver=new ChromeDriver();
 	        driver.manage().window().maximize();
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

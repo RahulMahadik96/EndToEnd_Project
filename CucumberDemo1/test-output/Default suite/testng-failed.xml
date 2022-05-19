@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPackage.HRMLoginWithValidCredentialTest">
+      <class name="cucumberOptions.OpenCartSearchRunner">
         <methods>
-          <include name="closeDriver"/>
-          <include name="excelData"/>
-          <include name="testOrangHRM"/>
-          <include name="luanchOrangHRM"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- testPackage.HRMLoginWithValidCredentialTest -->
+      </class> <!-- cucumberOptions.OpenCartSearchRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

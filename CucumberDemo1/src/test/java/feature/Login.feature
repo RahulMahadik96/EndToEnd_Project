@@ -26,7 +26,6 @@ And Username is displayed "false"
 Examples: 
       |userid | passwords | 
       | admin | admin321  |
-      
 @priority:1
 Scenario: Home page login with invalid credetials
 Given User is on the Login Page
@@ -37,7 +36,7 @@ Then Login successful "false"
 And Username is displayed "false"
 Examples: 
       |userid | passwords | 
-      | abcd  | Abcd123   |
+      |       |           |
       | defg  |  defg321  |
       | ghijk | ghijk456  |
 
