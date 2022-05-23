@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 19 09:26:47 IST 2022</td>
+<td>Started on:</td><td>Thu May 19 19:50:44 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1186 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62999 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,76 +75,77 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with non existing product", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:12)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1174248013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1174248013'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:12)
+<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality Grid view", "Optional[Search product functionality]"</td>
+<td><div><pre>java.lang.AssertionError: StepFail:By defoult product not in a List view on search page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at stepDefinitions.OpenCartSerchStepDefinition.bydefault_products_view_in_the_list_and_click_on_the_grid_something(OpenCartSerchStepDefinition.java:111)
+	at ?.Bydefault products view in the list and click on the Grid &quot;true&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:56)
+</pre></div><a href='#' onClick='toggleBox("stack-trace150783284", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150783284'><pre>java.lang.AssertionError: StepFail:By defoult product not in a List view on search page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:819)
+	at stepDefinitions.OpenCartSerchStepDefinition.bydefault_products_view_in_the_list_and_click_on_the_grid_something(OpenCartSerchStepDefinition.java:111)
+	at ?.Bydefault products view in the list and click on the Grid &quot;true&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:56)
 </pre></div></td>
-<td>0</td>
+<td>8</td>
 <td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
 <tr>
 <td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with existing product after login", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+<td><div><pre>java.lang.AssertionError: StepFail: Login is unsuccessful expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:55)
 	at ?.User on the Home page with login &quot;true&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1988644427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1988644427'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1801756410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1801756410'><pre>java.lang.AssertionError: StepFail: Login is unsuccessful expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:55)
 	at ?.User on the Home page with login &quot;true&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:28)
 </pre></div></td>
-<td>0</td>
+<td>10</td>
+<td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with existing product", "Optional[Search product functionality]"</td>
+<td></td>
+<td>10</td>
 <td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
 <tr>
-<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality without passing any product", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:20)
-</pre></div><a href='#' onClick='toggleBox("stack-trace342198178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace342198178'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:20)
-</pre></div></td>
-<td>0</td>
-<td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
-<tr>
-<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with non existing product", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:45)
-</pre></div><a href='#' onClick='toggleBox("stack-trace891461509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace891461509'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:45)
-</pre></div></td>
-<td>0</td>
+<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality without passing any product and validating Search criteria feature", "Optional[Search product functionality]"</td>
+<td></td>
+<td>7</td>
 <td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
 <tr>
 <td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with existing multiple product", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:37)
-</pre></div><a href='#' onClick='toggleBox("stack-trace713656449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace713656449'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:37)
-</pre></div></td>
-<td>0</td>
+<td></td>
+<td>8</td>
 <td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
 <tr>
-<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with existing product", "Optional[Search product functionality]"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1429351083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1429351083'><pre>java.lang.NullPointerException: Cannot invoke &quot;openCartObjectRepository.OpenCartFirstPage.getFeaturedElementOnFirstPage()&quot; because &quot;this.fPage&quot; is null
-	at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:32)
-	at ?.User on the Home page with login &quot;false&quot;(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:4)
-</pre></div></td>
-<td>0</td>
+<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality By Adding product to compare", "Optional[Search product functionality]"</td>
+<td></td>
+<td>9</td>
+<td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
+<tr>
+<td title='cucumberOptions.OpenCartSearchRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.OpenCartSearchRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the working of Search functionality with non existing product", "Optional[Search product functionality]"</td>
+<td></td>
+<td>6</td>
 <td>cucumberOptions.OpenCartSearchRunner@397fbdb</td></tr>
 </table><p>
 </body>
