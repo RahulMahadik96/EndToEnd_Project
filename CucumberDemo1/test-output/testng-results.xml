@@ -1,173 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-19T19:50:44 IST" name="Default suite" finished-at="2022-05-19T19:51:47 IST" duration-ms="62999">
+  <suite started-at="2022-05-24T09:03:15 IST" name="Default suite" finished-at="2022-05-24T09:03:24 IST" duration-ms="9339">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-05-19T19:50:44 IST" name="Default test" finished-at="2022-05-19T19:51:47 IST" duration-ms="62999">
-      <class name="cucumberOptions.OpenCartSearchRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:50:44 IST" name="setUpClass" finished-at="2022-05-19T19:50:45 IST" duration-ms="659" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@76cdafa3]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-05-24T09:03:15 IST" name="Default test" finished-at="2022-05-24T09:03:24 IST" duration-ms="9339">
+      <class name="testPackage.SendKeysTest">
+        <test-method is-config="true" signature="launchBrowserAndURL()[pri:0, instance:testPackage.SendKeysTest@4135c3b]" started-at="2022-05-24T09:03:15 IST" name="launchBrowserAndURL" finished-at="2022-05-24T09:03:23 IST" duration-ms="8734" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:50:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:50:55 IST" duration-ms="10754" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality with existing product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="sendKeysTest()[pri:0, instance:testPackage.SendKeysTest@4135c3b]" started-at="2022-05-24T09:03:23 IST" name="sendKeysTest" finished-at="2022-05-24T09:03:24 IST" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:50:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:02 IST" duration-ms="6442" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality with non existing product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- sendKeysTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testPackage.SendKeysTest@4135c3b]" started-at="2022-05-24T09:03:24 IST" name="closeDriver" finished-at="2022-05-24T09:03:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:10 IST" duration-ms="7889" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality without passing any product and validating Search criteria feature"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:20 IST" duration-ms="10317" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality with existing product after login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[StepFail: Login is unsuccessful expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: StepFail: Login is unsuccessful expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at stepDefinitions.OpenCartSerchStepDefinition.user_on_the_home_page_with_login_something(OpenCartSerchStepDefinition.java:55)
-at ✽.User on the Home page with login "true"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:28)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:28 IST" duration-ms="8117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality with existing multiple product"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:38 IST" duration-ms="9775" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality By Adding product to compare"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-19T19:51:47 IST" duration-ms="8929" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate the working of Search functionality Grid view"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Search product functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[StepFail:By defoult product not in a List view on search page expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: StepFail:By defoult product not in a List view on search page expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:819)
-at stepDefinitions.OpenCartSerchStepDefinition.bydefault_products_view_in_the_list_and_click_on_the_grid_something(OpenCartSerchStepDefinition.java:111)
-at ✽.Bydefault products view in the list and click on the Grid "true"(file:///C:/Users/Rahul/git/FinalProject/CucumberDemo1/src/test/java/feature/OpenCartSearch.feature:56)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.OpenCartSearchRunner@397fbdb]" started-at="2022-05-19T19:51:47 IST" name="tearDownClass" finished-at="2022-05-19T19:51:47 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.OpenCartSearchRunner -->
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testPackage.SendKeysTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
