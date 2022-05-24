@@ -34,12 +34,13 @@ public class SendKeysTest extends Base{
 		 WebElement uIElement= flPage.getUseridElement();
 		uIElement.sendKeys("UserRahul");
 		uIElement.sendKeys(Keys.CONTROL+"A"+"C");
-		uIElement.sendKeys(Keys.TAB+""+ Keys.CONTROL+"V");		
+		uIElement.sendKeys(Keys.TAB+""+ Keys.CONTROL+"V");	
+		flPage.getLoginButtonElement().click();
 	}
 	
 	@AfterClass
 	public void closeDriver() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }
