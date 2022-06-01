@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import objectRepositoryForHRM.FbLoginPage;
-import resorces.Base;
+import resources.Base;
 
 public class SendKeysTest extends Base{
 	public WebDriver driver;

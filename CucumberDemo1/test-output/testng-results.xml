@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-29T15:12:37 IST" name="Default suite" finished-at="2022-05-29T15:12:37 IST" duration-ms="94">
+  <suite started-at="2022-05-30T17:18:23 IST" name="Default suite" finished-at="2022-05-30T17:18:35 IST" duration-ms="11699">
     <groups>
     </groups>
-    <test started-at="2022-05-29T15:12:37 IST" name="Default test" finished-at="2022-05-29T15:12:37 IST" duration-ms="94">
-      <class name="testPackage.NewTest">
-        <test-method signature="firstTest()[pri:0, instance:testPackage.NewTest@5158b42f]" started-at="2022-05-29T15:12:37 IST" name="firstTest" finished-at="2022-05-29T15:12:37 IST" duration-ms="15" status="PASS">
+    <test started-at="2022-05-30T17:18:23 IST" name="Default test" finished-at="2022-05-30T17:18:35 IST" duration-ms="11699">
+      <class name="testPackage.AutoSuggestionsTest">
+        <test-method is-config="true" signature="launchBrowserAndURL()[pri:0, instance:testPackage.AutoSuggestionsTest@4562e04d]" started-at="2022-05-30T17:18:23 IST" name="launchBrowserAndURL" finished-at="2022-05-30T17:18:31 IST" duration-ms="8292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- testPackage.NewTest -->
+        </test-method> <!-- launchBrowserAndURL -->
+        <test-method signature="autoSuggestionTest()[pri:0, instance:testPackage.AutoSuggestionsTest@4562e04d]" started-at="2022-05-30T17:18:31 IST" name="autoSuggestionTest" finished-at="2022-05-30T17:18:35 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoSuggestionTest -->
+      </class> <!-- testPackage.AutoSuggestionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
