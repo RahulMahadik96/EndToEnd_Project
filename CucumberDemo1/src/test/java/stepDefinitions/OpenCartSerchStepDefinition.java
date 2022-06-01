@@ -15,7 +15,7 @@ import io.cucumber.java.en.When;
 import openCartObjectRepository.OpenCartFirstPage;
 import openCartObjectRepository.OpenCartLoginPage;
 import openCartObjectRepository.OpenCartSearchPage;
-import resorces.Base;
+import resources.Base;
 
 public class OpenCartSerchStepDefinition extends Base{
 	WebDriver driver;
